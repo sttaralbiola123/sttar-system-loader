@@ -201,7 +201,7 @@ local function validateKey(key)
             end
 
             screenGui:Destroy()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR-GITHUB/mainhub.lua"))()  -- Main hub link
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/sttaralbiola123/sttar-system-loader/refs/heads/main/keysystem.lua"))()  -- Main hub link
         else
             statusLabel.Text = "❌ " .. (data.msg or "Invalid")
             statusLabel.TextColor3 = Color3.fromRGB(255, 90, 90)
